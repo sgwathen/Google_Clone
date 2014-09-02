@@ -1,0 +1,214 @@
+@charset "UTF-8";
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/**start of CSS styling**/
+
+html {
+	min-width: 1010px;
+	min-height: 550px;
+	font-family: Helvetica, sans serif;
+}
+
+#header {
+	padding: 15px 30px;
+	height: 30px;	
+}
+
+#hdrlnks {
+	position:relative;
+	float: right;
+	width: 350px;
+	text-align: right;
+}
+
+ul li{
+	display: inline-block;
+	font-size: .8em;
+	
+}
+
+#hdrlnks ul li a{
+	margin-right: 15px;	
+	text-decoration: none;
+	color: #313131;
+}
+
+#hdrlnks ul li a:hover {
+	border-bottom: 1px solid #313131;
+}	
+
+#hdrlnks img {
+	position: absolute;
+	margin-top: -6px;
+	opacity: .85;
+}
+
+#hdrlnks img:hover {
+	opacity: 1;
+}
+
+#hdrlnks button {
+	width: 72px;
+	height: 32px;
+	margin-left: 25px;
+	border: 1px solid #4285f4;
+	border-radius: 2px;
+	background: -webkit-linear-gradient(#4385fd, #4683ea);
+	background:    -moz-linear-gradient(#4385fd, #4683ea);
+	background: 	        linear-gradient(#4385fd, #4683ea);
+	color: #fff;
+	font-size: 1.1em;
+	font-weight: bold;
+	font-family: Helvetica, sans serif;
+	outline: none !important;
+}
+
+#hdrlnks button:hover {
+	box-shadow: rgba(0, 0, 0, .2) 0px 1px 0px 0px;
+	
+}
+
+#googlelogo {
+	width: 100%;
+	margin-top: 132px;
+}
+
+#googlelogo img {
+	display: block;
+	height: 96px;
+	margin: 0px auto 0px auto;	
+}
+
+#form {
+	position: relative;
+}
+
+input {
+	width: 570px;
+	height: 30px;
+	margin: 22px auto 0px auto;
+	display: block;
+	border: 1px solid #cfcfcf;
+	font-size: 1em;	
+	background-image: url('images/microphone.png');
+	background-repeat: no-repeat;
+	background-position: 100% 50%;
+	padding-right: 20px;
+}
+
+input:hover{
+	border: 1px solid #b2b2b2;	
+}
+
+input:focus {
+	border: 1px solid #4285f4;
+	outline: none !important;
+}
+
+#search {
+	position: relative;
+	text-align: center;
+	margin-top: 15px;
+}
+
+#search button {
+	width: 115px;
+	height: 28px;
+	margin-right: 15px;
+	border: 1px solid #d8d8d8;
+	border-radius: 2px;
+	background: -webkit-linear-gradient(#f8f8f8, #f1f1f1);
+	background:    -moz-linear-gradient(#f8f8f8, #f1f1f1);
+	background: 	        linear-gradient(#f8f8f8, #f1f1f1);
+	color: #000;
+	font-size: .85em;
+	font-weight: bold;
+	font-family: Helvetica, sans serif;
+	outline: none !important;	
+}
+
+#search button:hover {
+	border: 1px solid #C3C3C3;
+	box-shadow: rgba(0, 0, 0, .2) 0px 1px 0px 0px;
+	
+}
+
+#footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	min-width: 970px;
+	background-color: #F2F2F2;
+	border-top: 1px solid #e4e4e4;
+	padding: 12px 30px;
+}
+
+#footer ul li a{
+	margin-right: 20px;
+	color: #313131;
+	text-decoration: none;
+}
+
+#footer ul li a:hover{
+	border-bottom: 1px solid #313131;	
+}
+
+#ftrleft {
+	position: relative;
+	float: left;
+	width: 300px;
+}
+
+#ftrright {
+	position: relative;
+	float: right;
+	width: 300px;
+	text-align: right;
+}
